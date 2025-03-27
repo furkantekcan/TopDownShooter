@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 579e5a1e456e2fc4790fb3146e8538f0, type: 3}
+  m_Name: Rifle
+  m_EditorClassIdentifier: 
+  gunType: 2
+  rpm: 600
+  spread: 0.02
+  damagePerBullet: 10
+  range: 0
+  reloadTime: 2
+  magazineSize: 30
+  bulletsPerShot: 1
+  isAutoGun: 0
+  firePoint: {fileID: 0}
+  impactEffect: {fileID: 1000010844420130, guid: 4edabb1c0dde62743b137378c7d22980,
+    type: 3}
+  shootingAudio: {fileID: 8300000, guid: 947719fd38845824ba3638af9d8e4e54, type: 3}
+  reloadAudio: {fileID: 8300000, guid: 8f268095f67575b44b10ea19a4482b2c, type: 3}
